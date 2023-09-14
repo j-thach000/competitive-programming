@@ -12,20 +12,21 @@ int main() {
     for (int i = 0; i < t; i++) {
         int a, b, c; cin >> a >> b >> c;
         long long sum = a + b + c;
+
         if (sum % 2 == 0) {
             if (a > b) {
-                cout << "First" << '\n';
+                cout << "First\n";
             }
             else {
-                cout << "Second" << '\n';
+                cout << "Second\n";
             }
         }
         else {
             if (b > a) {
-                cout << "Second" << '\n';
+                cout << "Second\n";
             }
             else {
-                cout << "First" << '\n';
+                cout << "First\n";
             }
         }
     }
