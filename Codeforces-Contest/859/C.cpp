@@ -18,13 +18,13 @@ int main() {
         for (int j = 0; j < n; j++) {
             if (j % 2 == 0) {
                 even.insert(s[j]);
-                if (odd.count(s[j]) == 1) {
+                if (odd.contains(s[j]) == 1) {
                     broken_parity = true;
                 }
             }
             else {
                 odd.insert(s[j]);
-                if (even.count(s[j]) == 1) {
+                if (even.contains(s[j]) == 1) {
                     broken_parity = true;
                 }                
             }
