@@ -34,3 +34,11 @@
 *.exe
 *.out
 *.app
+sandbox/1849A.cpp
+sandbox/binary_tree.cpp
+sandbox/cp_handbook_snippets.cpp
+sandbox/factorial.cpp
+sandbox/fibonacci.cpp
+sandbox/linked_list.cpp
+sandbox/cp_handbook/7_1.cpp
+sandbox/cp_handbook/7_2.cpp
