@@ -1,0 +1,6 @@
+# structures
+1. stacks
+2. queues
+
+# techniques
+1. monotonic
