@@ -41,12 +41,10 @@ void solve() {
         adj[v].push_back(u);
     }
 
-    // BFS
     vector<int> visited_BFS(n, 0); 
     bfs(0, adj, visited_BFS);
     cout << "\n";
 
-    // DFS
     vector<int> visited_DFS(n, 0); 
     dfs(0, adj, visited_DFS);
     cout << "\n";
