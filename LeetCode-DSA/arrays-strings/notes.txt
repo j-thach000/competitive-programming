@@ -1,0 +1,9 @@
+# structures
+1. arrays
+2. strings (although this is just an array with chars)
+
+# techniques
+1. two pointers
+2. sliding window
+3. prefix sum
+4. string building

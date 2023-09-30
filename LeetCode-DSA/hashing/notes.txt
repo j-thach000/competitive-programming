@@ -1,0 +1,7 @@
+# structures
+1. sets
+2. hash maps
+
+# techniques
+1. existence (sets)
+2. counting (hash maps)

@@ -1,0 +1,7 @@
+# structures
+1. singly linked
+2. doubly linked
+
+# techniques
+1. fast and slow pointers
+2. reversing a linked list
