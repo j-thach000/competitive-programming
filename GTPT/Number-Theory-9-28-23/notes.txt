@@ -1,3 +1,0 @@
-1. finding all factors
-2. sum of all factors
-3. sieve
