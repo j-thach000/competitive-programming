@@ -1,6 +1,7 @@
 #include "bits/stdc++.h"
 
 /*
+[takeaway]
 looked at editorial
 1. bound the problem, ie 15 x 15 gets us close to the limit of 10^18
 2. actual brain issue with thinking of an implementation of repeating multiplication over and over

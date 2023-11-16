@@ -2,7 +2,10 @@
 
 /*
 looked at editorial
+[takeaway]
 had no idea what a good implementation of finding digits of a number would be
+tens, hundreds, thousands etc. digits involve the largest result of division w/ floor and mod
+slicing an object over and over, ignoring non whole pieces
 */
 
 using namespace std;
