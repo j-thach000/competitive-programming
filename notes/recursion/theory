@@ -1,0 +1,14 @@
+[USE CASES]
+1. searching (think of BST/DST)
+2. enumeration (list out all possibilities of something)
+3. divide-and-conquer (dividing a problem into independent smaller parts, solving those and then combining the whole)
+4. an alternative to deeply nested iteration when the levels are undefined
+
+
+[REQUIREMENTS]
+1. identify all base cases (where do we inuitively start, when do we stop recursively calling, the case that's solved directly not needing recursive calls)
+2. recursive steps converge to a solution (our function should be proven to work inductively)
+    - recursive calls with the same argument happening more than once may be cached, key idea in dp (dynamic programming)
+
+[IMPLEMENTAION]
+1. might be easier to start with what the recursive calls would be and then the base case of what's computed directly
