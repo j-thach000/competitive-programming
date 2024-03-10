@@ -1,3 +1,6 @@
+[MOTIVATION]
+- what if a problem is simpler to solve by just combining smaller sub problems?
+
 [USE CASES]
 1. searching (think of BST/DST)
 2. enumeration (list out all possibilities of something)

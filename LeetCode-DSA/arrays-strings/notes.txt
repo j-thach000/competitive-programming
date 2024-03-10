@@ -4,7 +4,9 @@
 
 # techniques
 1. two pointers
-2. sliding window
-3. prefix sum (prefix refers to a subarray that begins at index 0, the beginning of the original array)
+2. sliding window (best subarray, number of subarrays)
+    -   number of subarrays that are strictly equal to a constraint 
+    -   number of subarrays >=/<= to a constraint
+3. prefix sum (summing subarrays)
 4. string building
 5. pre-processing (an investment of pre-computed data to use later on)

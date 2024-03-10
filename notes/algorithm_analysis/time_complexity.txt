@@ -1,0 +1,7 @@
+Big O notation itself measures the growth rate of an algorith in relation to its input size
+
+O(1) - same amount of operations every time the algorithm is ran
+O(n) - the amount of operations grows in relation to the input, n
+O(n^2) - operations required grows exponentially
+O(logn) - operations is how many times does it take halving the input n to reach some condition
+O(nlogn) - the above but the operations grows alongside how big the input is

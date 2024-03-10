@@ -1,3 +1,26 @@
+# motivation
+what if we wanted arrays but accessing each element uses some key (ex: string) instead of an integer index
+what if we could use a function that converts the key into an integer so we could refer to the element in the array
+that's the whole point of a hashmap and hash function (convert keys to integers)
+
+# implementation details
+- what if the hash function causes 2 inputs to be converted to the same integer for an index?
+    - the array holds linked list heads for all the collisions (ex: multiple inputs hash to index 4, index 4 is a linked list with nodes)
+
+# language specifics
+- java 
+    - has an interface called map, hashmap implements it as a subclass
+
+# advantages
+O(1) operations:
+- add an element 
+- delete an element
+- check if an element exists
+
+# disadvantages
+- initial overhead (implemented with fixed-sized arrays, size set by programmer), causing it to be potentially slower for smaller input sizes
+ 
+
 # structures
 1. sets
 2. hash maps
@@ -5,3 +28,4 @@
 # techniques
 1. existence (sets)
 2. counting (hash maps)
+
