@@ -6,7 +6,29 @@
 1. two pointers
 2. sliding window (best subarray, number of subarrays)
     -   number of subarrays that are strictly equal to a constraint 
+        ex: sliding window + hashmap + prefix sum
+            - for each i, check if there exists a complement of curr - (curr - k) that's been seen before in the hashmap, add it's freq to ans
+            - "Therefore, if a subarray ends at i with a sum of k, then curr - k must have been seen before."
+                - ex: [1,1,1,1,1,1] k = 3
+                -      0 1 2 3 4 5
+                - imagine our subarray is from 0 to 3
+                - sum = 4
+                - every subarray, we're checking if there's some sum - k that's been counted before in our hashmap to gets us k
+                - 4 - 3 = 1
+                - the sum 1 before has been seen at 0
+                - that's literally it
+                - https://youtu.be/fFVZt-6sgyo?si=DReoiSvz1TxV9ni5&t=308
+                - ex: [1,-1,1,1,1,1] k = 3
+                -      0  1 2 3 4 5
+                - imagine our subarray is from 0 to 4
+                - sum = 3, k = 3
+                - (sum - k) = 0
+                - there must be 2 subarrays that sum to 3 because we've had the sum of 0 occur twice
+                - 1. [], 2. [1,-1]
+                - 1 + 1 + 1 = 3
+                - 1 + -1 + 1 + 1 + 1 = 3
     -   number of subarrays >=/<= to a constraint
+    -   
 3. prefix sum (summing subarrays)
 4. string building
 5. pre-processing (an investment of pre-computed data to use later on)
